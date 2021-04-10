@@ -81,4 +81,24 @@ sudo apt install ros-melodic-moveit-ros-planning
 
 sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
 
+Create Catkin WS
+
+cd ~/
+mkdir --parents catkin_ws/src
+cd catkin_ws
+catkin init
+cd ~/catkin_ws
+catkin build or catkin_make
+
+Create Pkg
+
+cd to Ws
+catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
+catkin build or catkin_make
+
+Create and edit node
+
+touch node_hello_ros.py (create)
+gedit node_hello_ros.py (edit)
+#!/usr/bin/env python (first line)
 
