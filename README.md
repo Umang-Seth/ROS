@@ -69,4 +69,16 @@ sudo apt-get install ros-melodic-amcl
 
 sudo apt-get install ros-melodic-map-server
 
+#MoveIt
+
+sudo apt install ros-melodic-moveit
+
+#MoveIt ROS planning
+
+sudo apt install ros-melodic-moveit-ros-planning
+
+#ROS Control
+
+sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
+
 
