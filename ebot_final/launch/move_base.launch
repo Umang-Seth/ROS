@@ -1,0 +1,27 @@
+<launch>
+
+    <!-- including launch file for localization using AMCL -->
+  <include file="$(find ebot_final)/launch/amcl.launch" />
+     <!-- including launch file for visualizing in rviz -->
+  <!--<include file="$(find ebot_description)/launch/ebot_visualize.launch"/>-->
+
+  <!--<node name="waypoint" type="waypoint.py" pkg="ebot_nav"/>-->
+
+
+      <!-- Move base -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find ebot_final)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find ebot_final)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find ebot_final)/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find ebot_final)/config/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find ebot_final)/config/trajectory_planner.yaml" command="load" />
+
+
+    <param name="controller_frequency" value="10.0"/>
+    <param name="move_base/DWAPlannerROS/yaw_goal_tolerance" value="0.0"/>
+    <param name="move_base/DWAPlannerROS/xy_goal_tolerance" value="0.0"/>
+
+  </node>
+
+</launch>
+
