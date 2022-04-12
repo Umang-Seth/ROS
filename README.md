@@ -1,6 +1,10 @@
 # ROS
 ROS Projects
 
+https://youtu.be/9vbJYU0qqGM?t=110
+https://youtu.be/CpiRapGenLE
+https://youtu.be/4UwONrgyy0c
+
 Installation Steps
 1. Setup your computer to accept software from packages.ros.org.
 
