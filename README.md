@@ -51,73 +51,73 @@ rosdep update
 
 More packages to install
 
-#Catkin Tools
+### Catkin Tools
 
 ```
 sudo apt-get install ros-melodic-catkin python-catkin-tools
 ```
 
-#std_msg package
+### std_msg package
 
 ```
 sudo apt install ros-melodic-std-msgs
 ```
 
-#turtlesim
+### turtlesim
 
 ```
 sudo apt-get install ros-melodic-ros-tutorials
 ```
 
-#Gmapping package: ​
+### Gmapping package: ​
 
 ```
 sudo apt-get install ros-melodic-gmapping
 ```
 
-#Teleop keyboard package: (Ignore if already installed)
+### Teleop keyboard package: (Ignore if already installed)
 
 ```
 sudo apt-get install ros-melodic-teleop-twist-keyboard
 ```
 
-#Navigation package: ​
+### Navigation package: ​
 
 ```
 sudo apt-get install ros-melodic-navigation
 ```
 
-#Tf2 package:
+### Tf2 package:
 
 ```
 sudo apt-get install ros-melodic-tf2-sensor-msgs
 ```
 
-#AMCL package: ​
+### AMCL package: ​
 
 ```
 sudo apt-get install ros-melodic-amcl
 ```
 
-#Map server package:
+### Map server package:
 
 ```
 sudo apt-get install ros-melodic-map-server
 ```
 
-#MoveIt
+### MoveIt
 
 ```
 sudo apt install ros-melodic-moveit
 ```
 
-#MoveIt ROS planning
+### MoveIt ROS planning
 
 ```
 sudo apt install ros-melodic-moveit-ros-planning
 ```
 
-#ROS Control
+### ROS Control
 
 ```
 sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
