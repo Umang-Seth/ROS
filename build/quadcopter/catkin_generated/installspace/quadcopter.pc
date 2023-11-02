@@ -1,0 +1,8 @@
+prefix=/home/umang/ardupilot_ws/install
+
+Name: quadcopter
+Description: Description of quadcopter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

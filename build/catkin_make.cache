@@ -1,0 +1,2 @@
+decawave:iq_gnc:quadcopter:task
+-DCATKIN_DEVEL_PREFIX=/home/umang/ardupilot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/umang/ardupilot_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/umang/ardupilot_ws/install
+
+Name: task
+Description: Description of task
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
